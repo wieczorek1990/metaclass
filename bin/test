@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd test_project
+PYTHONPATH=../src:. ./manage.py test --no-input
+cd - > /dev/null
